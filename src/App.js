@@ -1,15 +1,21 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
+import Header from "./Header";
+
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <header></header>
+        <header>
+          <Header />
+        </header>
         <main>
           <Dictionary />
         </main>
-        <footer>Coded by</footer>
+        <footer>
+          <div className="footer__text">Coded by NZ</div>
+        </footer>
       </div>
     </div>
   );
