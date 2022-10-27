@@ -5,7 +5,7 @@ import "./Header.css";
 export default function Header() {
   return (
     <div className="Header ">
-      <img src={logo} className="logo img-fluid" />
+      <img src={logo} alt="logo" className="logo img-fluid" />
     </div>
   );
 }
