@@ -13,7 +13,16 @@ function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer>
-          <div className="footer__text">Coded by NZ</div>
+          <div className="footer__text">
+            Open source code on{" "}
+            <a
+              href="https://github.com/orchid-cloud/dictionary-app.git"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
         </footer>
       </div>
     </div>
