@@ -2,7 +2,6 @@ import "./App.css";
 import Dictionary from "./Dictionary";
 import Header from "./Header";
 
-
 function App() {
   return (
     <div className="App">
@@ -11,7 +10,7 @@ function App() {
           <Header />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer>
           <div className="footer__text">Coded by NZ</div>
